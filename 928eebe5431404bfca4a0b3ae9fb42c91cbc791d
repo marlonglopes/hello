@@ -1,0 +1,1 @@
+{"jobID":"12f5c1f7-4cbf-eec2-74bc-e68a253cd2bf","spec":{"type":"policy","cause":{"Message":"","User":"Marlon Lopes \u003cmarlon.lopes@hp.com\u003e"},"spec":{"hello:deployment/hello-deployment":{"add":{"automated":"true"},"remove":{}}}},"result":null}
