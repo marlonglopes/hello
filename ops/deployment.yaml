@@ -1,8 +1,11 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello-deployment
   namespace: "hello"
+  annotations:
+    flux.weave.works/automated: 'true'
 spec:
   replicas: 1
   selector:
@@ -10,11 +13,11 @@ spec:
       component: web
   template:
     metadata:
-      labels: 
+      labels:
         component: web
     spec:
       containers:
-        - name: client
-          image: marlonglopes/node-app:0.0.1
-          ports:
-            - containerPort: 8080
+      - name: client
+        image: marlonglopes/node-app:0.0.1
+        ports:
+        - containerPort: 8080
