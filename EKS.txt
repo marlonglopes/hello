@@ -1,0 +1,18 @@
+provisioning:
+  EKS
+    masters
+    
+  cloudformation
+  EKSctl (melhor). funciona bem mas trick (on top of cloudformation). tool pra deploy
+  ou
+  Terraform
+  
+
+  kiam (compartilhamento de recursos)
+  
+  prometheus (node monitor, extract metrics)
+  
+  
+  weave flux
+  
+  
