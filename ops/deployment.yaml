@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: client
-        image: marlonglopes/node-app:0.0.2
+        image: marlonglopes/node-app:0.0.4
         ports:
         - containerPort: 8080
