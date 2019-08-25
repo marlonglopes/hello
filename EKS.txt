@@ -17,3 +17,6 @@ provisioning:
   
   
   EKSCTL_EXPERIMENTAL=true eksctl install flux --name test2 --region us-west-2 --git-url=git@github.com:marlonglopes/hello.git --git-email=marlonglopes@gmail.com
+  
+  
+   fluxctl list-images --workload=hello:deployment/hello-deployment   --k8s-fwd-ns flux
