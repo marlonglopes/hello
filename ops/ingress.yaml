@@ -15,5 +15,5 @@ spec:
         - path: /*
           backend:
             serviceName: hello-service
-            servicePort: 5678
+            servicePort: 8080
 
